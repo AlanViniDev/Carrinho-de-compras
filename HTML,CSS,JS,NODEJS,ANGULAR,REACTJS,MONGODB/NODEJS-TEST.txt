@@ -1,0 +1,9 @@
+http://www.matera.com/blog/post/testes-em-node-js
+https://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/
+
+TESTES EM NODEJS COM JEST
+
+npm install --save-dev babel-cli babel-preset-env jest supertest superagent
+
+npm run test
+
