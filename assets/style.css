@@ -1,0 +1,250 @@
+/*Inicio do estilo da página home*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 100%;
+}
+#topo{
+    width: 100%;
+    height:100px;
+    background-color: rgb(152, 152, 240);
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(149, 149, 247);
+}
+figure img{
+    width:65px;
+    height: 55px;
+    position: relative;
+    left:370px;
+    top:-1px;
+}
+#quantidade{
+    background-color: white;
+    width: 50px;
+    height: 18px;
+    position: relative;
+    left:370px;
+    top:-5px;
+}
+#titulo h1{
+    position: relative;
+    top:40px;
+    left:-350px;
+    color:white;
+    font-size: 25px;
+}
+#camisetas{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top:1px;
+}
+
+#bermudas{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top:-600px;
+}
+
+#calcas{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top:-1200px;
+}
+
+#subtitulo{
+    text-align: center;
+    color:black;
+    font-size: 35px;
+    position: relative;
+    top:50px;
+}
+#button{
+    text-align: center;
+    position: relative;
+    top:40px;
+}
+#button button{
+    cursor: pointer;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(87, 128, 202);
+    color:white;
+    width: 203px;
+}
+#imgCarrinho{
+    cursor: pointer;
+}
+
+#produtos{
+    position: relative;
+    top:8%;
+    display: flex;
+    left:-380px;
+}
+#produtos img{
+    width:200px;
+    height:200px;
+}
+
+ #camisa01, #camisa02, #camisa03, #camisa04, #camisa05{
+    border-style: solid;
+    border-width: 1px;
+    color:black;
+    margin: 10px;
+}
+
+#produtos {
+     display: flex;
+     align-items: center;
+     justify-content: center
+}
+
+#button01{
+    position: relative;
+    left:-1px;
+}
+#button02{
+    position: relative;
+    left:-5px;
+}
+#button03{
+    position: relative;
+    left:-10px;
+}
+#button04{
+    position: relative;
+    left:-14.7px;
+}
+#button05{
+    position: relative;
+    left:-20px;
+}
+
+#preco span{
+    position: relative;
+    top:46px;
+    z-index: 99;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#preco01{
+    position: relative;
+    left:-325px;
+}
+
+#preco02{
+    position: relative;
+    left:-165px;
+}
+
+#preco03{
+    position: relative;
+    left:-5px;
+}
+
+#preco04{
+    position: relative;
+    left:153px;
+}
+
+#preco05{
+    position: relative;
+    left:312px;
+}
+
+/*Carrinho*/
+
+
+#corpoProduto{
+    position: relative;
+    top:100px;
+    background-color: rgb(48, 214, 219);
+    width:700px;
+}
+
+#subtitu, h3{
+    font-size: 23px;
+    color:white;
+}
+
+#subtitu, h3{
+    left:-300px;
+    position: relative;
+    top:20px;
+}
+
+#remover{
+    background-color: red;
+    color: white;
+    width:25px;
+    height:20px;
+    position: relative;
+    top:-60px;
+    cursor: pointer;
+    left:320px;
+    border-color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#qtd{
+    font-size: 14.5px;
+    color:white;
+    position: relative;
+    top:-40px;
+    left:95px;
+    display: flex;
+    font-weight: bolder;
+}
+
+#remover hr {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#adicionar{
+    background-color:blue;
+    color: white;
+    width:25px;
+    height:20px;
+    position: relative;
+    top:-60px;
+    cursor: pointer;
+    left:320px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+#camisas{
+    border-style: solid;
+    border-width: 1px;
+    color:black;
+    margin: 10px;
+    width:70px;
+    height:70px;
+    position: relative;
+    left:-300px;
+    top:10px;
+}
+
